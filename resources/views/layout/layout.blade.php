@@ -2,8 +2,7 @@
 <html lang="en">
 @include('component.head')
 <body class="font-primary">
-    @include('component.navbar')
-    @yield('content')
+    @yield('layout')
 
     @yield('extra-js')
 </body>

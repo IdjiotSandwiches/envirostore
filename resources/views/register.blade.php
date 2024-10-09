@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('layout.form-layout')
 @section('title', 'Register')
 
 @section('content')
