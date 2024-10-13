@@ -2,7 +2,7 @@
 @section('title', 'Welcome')
 
 @section('content')
-    <div class="flex flex-col gap-10 py-4">
+    <div class="flex flex-col gap-10">
         @include('component.carousel', with([
             'imgPaths' => [
                 'img/0.png',
