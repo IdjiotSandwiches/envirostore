@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('component.head')
-<body class="font-primary">
-    @yield('layout')
-
-    @yield('extra-js')
+<body class="bg-background font-primary">
+    @yield('content')
 </body>
 </html>
