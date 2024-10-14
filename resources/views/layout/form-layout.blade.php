@@ -1,5 +1,7 @@
 @extends('layout.layout')
 
-@section('layout')
-    @yield('content')
+@section('content')
+    <section class="flex items-center justify-center px-4 py-8">
+        @yield('form')
+    </section>
 @endsection
